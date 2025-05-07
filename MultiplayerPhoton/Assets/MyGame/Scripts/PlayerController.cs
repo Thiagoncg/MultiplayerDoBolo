@@ -73,7 +73,7 @@ public class PlayerController : MonoBehaviourPun
         var x = Input.GetAxis("Horizontal");
         var y = Input.GetAxis("Vertical");
 
-        rigidB2D.velocity = new Vector2(x , y);
+        rigidB2D.linearVelocity = new Vector2(x , y);
     }
     void  PlayerTurn()
     {
